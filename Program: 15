@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1, num2, res;
+    cout<<"Enter Two Numbers: ";
+    cin>>num1>>num2;
+    res = num1+num2;
+    cout<<endl<<"Addition of numbers = "<<res<<endl;
+    res = num1-num2;
+    cout<<endl<<"Subtraction of numbers = "<<res<<endl;
+    res = num1*num2;
+    cout<<endl<<"Multiplication of numbers = "<<res<<endl;
+    res = num1/num2;
+    cout<<endl<<"Reminder of numbers = "<<res<<endl;
+    return 0;
+}
